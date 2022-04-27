@@ -18,6 +18,11 @@ namespace AddressBookSystem
             addressBook.Columns.Add("State");
             addressBook.Columns.Add("Phone Number");
             addressBook.Columns.Add("Email");
+            Console.WriteLine("\nAddress Book Data Table Created");
+
+            //UC 3 Insert
+            adb.AddToTable(addressBook);
+
         }
     }
 }
